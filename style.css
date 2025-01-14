@@ -1,1 +1,49 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1920px;
+  background-color: rgb(1, 60, 1);
+  width: 100%;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  gap: 40px;
+}
+body .min_con {
+  display: flex;
+  gap: 40px;
+  color: #fff;
+}
+body .box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: #fff;
+  background-color: rgb(1, 48, 1);
+  border-radius: 20px;
+}
+body .box h2 {
+  font-size: 30px;
+  padding-left: 20px;
+}
+body .box img {
+  border-radius: 20px 20px 0px 0px;
+}
+body .peo_com {
+  display: flex;
+  gap: 20px;
+  padding-left: 20px;
+}
+body .one {
+  display: flex;
+}
+body .two {
+  display: flex;
+}/*# sourceMappingURL=style.css.map */
