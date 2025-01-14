@@ -1,1 +1,106 @@
-/*# sourceMappingURL=style.css.map */
+.blog-container {
+  background: linear-gradient(135deg, #2D442F, #1d2b1e);
+  padding: 24px;
+  min-height: 100vh;
+}
+.blog-container .inner-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  padding: 24px 0;
+}
+@media (max-width: 1024px) {
+  .card-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 768px) {
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.blog-card {
+  background: #2D442F;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+.blog-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+.blog-card:hover .card-image img {
+  transform: scale(1.05);
+}
+.blog-card .card-image {
+  position: relative;
+  height: 240px;
+  overflow: hidden;
+}
+.blog-card .card-image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: all 0.3s ease;
+}
+.blog-card .card-image::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.4), transparent);
+}
+.blog-card .date-badge {
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+  background: #ffc107;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 14px;
+  z-index: 1;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+.blog-card .card-content {
+  padding: 24px;
+}
+.blog-card .card-content .card-title {
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.blog-card .card-content .card-title:hover {
+  color: #AB934D;
+}
+.blog-card .card-content .card-meta {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: #BDC4BE;
+  font-size: 14px;
+}
+.blog-card .card-content .card-meta .meta-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.blog-card .card-content .card-meta .meta-item svg {
+  width: 18px;
+  height: 18px;
+  stroke: #AB934D;
+}/*# sourceMappingURL=style.css.map */
