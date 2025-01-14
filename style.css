@@ -1,1 +1,51 @@
-/*# sourceMappingURL=style.css.map */
+body {
+  margin: 0;
+  padding: 0;
+}
+body .agriculture-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  align-items: center;
+  background-color: rgb(109, 140, 84);
+}
+body .agriculture-section .image-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+body .agriculture-section .content-container {
+  display: grid;
+  grid-template-rows: auto auto;
+  gap: 20px;
+}
+body .agriculture-section .content-container .heading h2 {
+  font-size: 18px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+body .agriculture-section .content-container .heading h1 {
+  font-size: 55px;
+  color: #fff;
+  font-weight: bold;
+}
+body .agriculture-section .content-container .info-box {
+  display: grid;
+  grid-template-columns: 60px auto;
+  gap: 10px;
+  align-items: center;
+}
+body .agriculture-section .content-container .info-box .icon img {
+  width: 100%;
+  height: auto;
+}
+body .agriculture-section .content-container .info-box .text h3 {
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 5px;
+}
+body .agriculture-section .content-container .info-box .text p {
+  font-size: 16px;
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    .agriculture-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        align-items: center;
+        background-color: rgba(109, 140, 84, 1);
+        // padding: 40px;
+        
+        .image-container {
+            img {
+                width: 100%;
+                height: auto;
+                border-radius: 10px;
+            }
+        }
+        
+        .content-container {
+            display: grid;
+            grid-template-rows: auto auto;
+            gap: 20px;
+            
+            .heading {
+                h2 {
+                    font-size: 18px;
+                    color: #fff;
+                    text-transform: uppercase;
+                    margin-bottom: 10px;
+                }
+                h1 {
+                    font-size: 55px;
+                    color: #fff;
+                    font-weight: bold;
+                }
+            }
+            
+            .info-box {
+                display: grid;
+                grid-template-columns: 60px auto;
+                gap: 10px;
+                align-items: center;
+                
+                .icon {
+                    img {
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+                
+                .text {
+                    h3 {
+                        font-size: 20px;
+                        color: #fff;
+                        margin-bottom: 5px;
+                    }
+                    
+                    p {
+                        font-size: 16px;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+    
+}
