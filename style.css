@@ -1,1 +1,57 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+#root {
+  max-width: 1920px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#root section.main {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+#root section.main > div img {
+  max-width: 841px;
+}
+#root section.main .modern_text {
+  height: 710px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
+  background-color: rgb(4, 97, 4);
+}
+#root section.main .modern_text p {
+  font-size: 20px;
+  color: #fff;
+}
+#root section.main .modern_text h1 {
+  max-width: 610px;
+  font-size: 50px;
+  color: #fff;
+}
+#root section.main .modern_text .card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-left: 90px;
+}
+#root section.main .modern_text .card > div h4 {
+  font-size: 24px;
+  color: #fff;
+}
+#root section.main .modern_text .card > div p {
+  max-width: 610px;
+  color: #fff;
+  font-size: 18px;
+}/*# sourceMappingURL=style.css.map */
